@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    background-color: yellowgreen;
+}
+h2,h3{
+    background-color: gainsboro;
+}
