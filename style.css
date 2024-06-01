@@ -1,0 +1,144 @@
+body{
+    display:flex;
+    flex-direction: column;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header{
+    display:flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    color: white;
+}
+.logo{
+    font-size:24px;
+    color:#F9Faf8
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    display:flex;
+    gap:20px;
+    font-size:18px;
+
+}
+a{
+    text-decoration:none;
+    color:#e5e7eb;
+}
+
+.content1{
+    padding:50px;
+    display:flex;
+    background-color: #1f2937;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+}
+.content1 .child1,
+.content1 .child2
+{
+    max-width: 400px;
+}
+.content1 .child1 .bigtext{
+    font-size:48px;
+    font-weight: bold;
+}
+.content1 .child1 .smalltext{
+    font-size:18px;
+    color:#e5e7eb;
+}
+.content1 .child1 .button button{
+    color:white;
+    background-color: #3882f6;
+    padding:3px 20px;
+    border-radius: 8px;
+    border-color:#3882f6;
+    margin-top:20px;
+}
+
+
+.content2{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding:50px;
+    gap:50px;
+}
+.content2 .container{
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap:wrap;
+    gap:100px;
+}
+.content2 .container .textbox {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.content2 .container .textbox .box img{
+    width: 200px;
+    height: auto;
+    border:3px solid red;
+    border-radius:8px;
+}
+.content2 .title{
+    font-size:32px;
+    color:#1f2937;
+   font-weight: bold; 
+}
+
+
+
+.content3{
+    padding:100px;
+    display:flex;
+    flex-direction:column;
+    background-color: #e5e7eb;
+    align-items:center;
+}
+.content3 .bigtext{
+    font-size:36px;
+    max-width:800px;
+    font-style:italic;
+}
+.content3 .smalltext{
+    margin-left:500px;
+}
+.content4{
+    display:flex;
+    justify-content: center;
+    padding:100px;
+}
+.content4 .container{
+    background-color: #3882f6;
+    padding:50px;
+    border-radius: 5px;
+    display:flex;
+    gap:20px;
+}
+.content4 .button button{
+    border-radius: 5px;
+    padding:5px 15px;
+    border-color: white;
+    background-color: #3882f6;
+    color:white;
+}
+.content4 .container .text{
+    color:white;
+}
+.content4 .container .text .bigtext{
+    font-size:20px;
+    font-weight: bold;
+}
+.footer{
+    display: flex;
+    justify-content:center;
+    background-color: #1f2937;
+    color:white;
+    padding:20px;
+
+}
